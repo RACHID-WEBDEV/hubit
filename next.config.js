@@ -3,6 +3,7 @@
 const nextConfig = {
   trailingSlash: true,
   output: "export",
+  unoptimized: true,
 };
 
 module.exports = nextConfig;
