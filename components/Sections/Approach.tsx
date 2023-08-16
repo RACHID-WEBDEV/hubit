@@ -13,8 +13,6 @@ const Approach = () => {
                 src="/works/about.png"
                 className="max-w-sm  lg:max-w-[650px] lg:max-h-[600px} rounded-3xl transition-transform duration-[1600ms]  group-hover:scale-110 scale-100"
                 alt="hubit screenshot"
-                // width="650"
-                // height="580"
               />
             </div>
 
