@@ -49,7 +49,7 @@ const Hero = () => {
               <div className="-ml-6 md:-mr-72 lg:mr-0">
                 <img
                   className="h-full object-cover object-left"
-                  src="/images/hubit-new2.png"
+                  src="/images/hubit-new.webp"
                   alt="hubit technology hero image"
                   width="1628"
                   height="1233"
