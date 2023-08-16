@@ -10,7 +10,7 @@ const Services = () => {
       <div className="px-4 md:px-12 lg:px-6 xl:max-w-7xl xl:px-0 mx-auto max-w-7xl ">
         <h2 className="font-semibold text-4xl lg:text-6xl text-gray-800 max-w-lg ">
           Our{" "}
-          <span className=" font-Syne relative">
+          <span className=" font-Marcellus relative">
             Included{" "}
             <span className="absolute right-0 bottom-px hidden lg:flex">
               <Line width={270} />

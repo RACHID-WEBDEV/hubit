@@ -31,31 +31,6 @@ const inter = localFont({
   variable: "--font-Inter",
 });
 
-const syne = localFont({
-  src: [
-    {
-      path: "../public/fonts/Syne/Syne-Regular.ttf",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/Syne/Syne-Medium.ttf",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/Syne/Syne-Semibold.ttf",
-      weight: "600",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/Syne/Syne-Bold.ttf",
-      weight: "700",
-      style: "normal",
-    },
-  ],
-  variable: "--font-Syne",
-});
 const marcellus = localFont({
   src: [
     {
@@ -66,4 +41,4 @@ const marcellus = localFont({
   ],
   variable: "--font-Marcellus",
 });
-export { inter, syne, marcellus };
+export { inter, marcellus };

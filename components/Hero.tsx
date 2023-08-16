@@ -38,7 +38,7 @@ const Hero = () => {
 
                   <div className="hidden lg:flex items-center gap-2 cursor-pointer">
                     <img src="/images/play-icon.svg" alt="play icon" />
-                    <p className="text-secondary font-bold font-Syne">
+                    <p className="text-secondary font-bold font-Marcellus">
                       How it works
                     </p>
                   </div>

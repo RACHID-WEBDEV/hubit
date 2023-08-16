@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import "./globals.css";
 import type { Metadata } from "next";
-import { inter, syne, marcellus } from "@/app/devFonts";
+import { inter, marcellus } from "@/app/devFonts";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -20,7 +20,6 @@ export default function RootLayout({
       <body
         className={classNames(
           inter.variable,
-          syne.variable,
           marcellus.variable,
           "bg-backgroundColor  "
         )}

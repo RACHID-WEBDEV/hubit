@@ -25,7 +25,7 @@ const Button = ({
       >
         <span
           className={classNames(
-            "relative w-max text-sm font-bold text-white font-Syne",
+            "relative w-max text-sm font-bold text-white font-Marcellus",
             { "hover:text-secondary": color === "primary" },
             {
               "hover:text-primary": color === "secondary",

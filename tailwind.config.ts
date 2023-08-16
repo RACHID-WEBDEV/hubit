@@ -17,11 +17,10 @@ const config: Config = {
       },
       backgroundImage: {},
       fontFamily: {
-        // Syne: ["Syne", "sans-serif"],
+        // Marcellus: ["Marcellus", "sans-serif"],
         // Inter: ["Inter", "sans-serif"],
 
         Inter: ["var(--font-Inter)", "sans-serif"],
-        Syne: ["var(--font-Syne)", "sans-serif"],
         Marcellus: ["var(--font-Marcellus)", "serif"],
       },
     },
