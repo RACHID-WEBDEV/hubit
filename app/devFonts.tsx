@@ -56,5 +56,14 @@ const syne = localFont({
   ],
   variable: "--font-Syne",
 });
-
-export { inter, syne };
+const marcellus = localFont({
+  src: [
+    {
+      path: "../public/fonts/Marcellus/Marcellus-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-Marcellus",
+});
+export { inter, syne, marcellus };

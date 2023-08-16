@@ -11,10 +11,13 @@ const Hero = () => {
         <div className="relative ml-auto pt-40 xl:pt-36">
           <div className="gap-12 md:flex md:items-center">
             <div className="text-center sm:px-12 md:w-2/3 md:px-0 md:text-left lg:w-1/2">
-              <h1 className=" text-4xl font-bold md:text-6xl xl:text-7xl ">
-                Helping You Move Onward{" "}
-                <span className="font-Syne relative">
-                  Digitally
+              <h1 className=" text-4xl font-bold md:text-6xl xl:text-7xl capitalize">
+                {/* Helping You Move Onward{" "} */}
+                {/* Elevate Your Brand{" "} */}
+                {/* Make your brand stand out{" "} */}
+                Turning Business Ideas into Digital{" "}
+                <span className="font-Marcellus relative">
+                  Realities
                   <img
                     src="/images/curve-line.svg"
                     width={300}
@@ -46,7 +49,7 @@ const Hero = () => {
               <div className="-ml-6 md:-mr-72 lg:mr-0">
                 <img
                   className="h-full object-cover object-left"
-                  src="/images/heroImage.webp"
+                  src="/images/hubit-new2.png"
                   alt="hubit technology hero image"
                   width="1628"
                   height="1233"

@@ -7,9 +7,9 @@ const NavLink = ({ link, title }: menusType) => {
     <li>
       <Link
         href={link}
-        className="block transition hover:text-primary dark:hover:text-primaryLight md:px-4 "
+        className="block transition hover:text-primary md:px-4 "
       >
-        <span className="font-Syne">{title}</span>
+        <span className="font-Marcellus text-base">{title}</span>
       </Link>
     </li>
   );

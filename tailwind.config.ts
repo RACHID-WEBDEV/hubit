@@ -19,8 +19,10 @@ const config: Config = {
       fontFamily: {
         // Syne: ["Syne", "sans-serif"],
         // Inter: ["Inter", "sans-serif"],
+
         Inter: ["var(--font-Inter)", "sans-serif"],
         Syne: ["var(--font-Syne)", "sans-serif"],
+        Marcellus: ["var(--font-Marcellus)", "serif"],
       },
     },
   },

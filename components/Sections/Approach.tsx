@@ -7,30 +7,30 @@ const Approach = () => {
     <div className="mt-20 mx-auto max-w-7xl px-4 md:px-12 lg:px-6 xl:px-0">
       <div className="gap-6 space-y-12 md:flex md:gap-12 xl:gap-20 md:space-y-0">
         <div className="-m-4 overflow-hidden p-4 sm:-mx-12 sm:px-12 md:mx-0 md:w-1/2 md:overflow-visible md:px-0">
-          <div className="relative bg-backgroundAlt before:absolute before:inset-0 before:scale-x-110 before:border-y before:border-gray-300 after:absolute after:inset-0 after:scale-y-110 after:border-x after:border-gray-300 ">
-            <div className="relative ">
+          <div className="relative group ">
+            <div className="relative rounded-3xl overflow-hidden lg:max-w-[650px] lg:max-h-[650px] ">
               <img
                 src="/works/about.png"
-                className="mx-auto border object-cover object-top shadow-2xl max-w-sm lg:max-w-[650px]  "
-                alt="tailus screenshot"
+                className="max-w-sm  lg:max-w-[650px] lg:max-h-[600px} rounded-3xl transition-transform duration-[1600ms]  group-hover:scale-110 scale-100"
+                alt="hubit screenshot"
                 // width="650"
                 // height="580"
               />
-
-              <img
-                src="/works/graph.png"
-                className="absolute top-52 -right-16 z-20"
-                alt="tailus screenshot"
-                width="259"
-                height="200"
-              />
             </div>
+
+            <img
+              src="/works/graph.png"
+              className="absolute top-52 -right-16 z-20"
+              alt="hubit screenshot"
+              width="259"
+              height="200"
+            />
           </div>
         </div>
         <div className="relative md:w-1/2">
           <div className=" inset-0 flex scale-100 flex-col justify-center opacity-100 transition duration-500 md:absolute">
             <div>
-              <h3 className="text-4xl font-semibold text-gray-800 lg:text-6xl">
+              <h3 className="text-4xl font-semibold text-gray-800 lg:text-5xl">
                 Our Unique Approach
               </h3>
               <p className="mt-8 text-gray-600 ">
@@ -51,46 +51,6 @@ const Approach = () => {
                     <p className="mt-1 text-sm lg:text-base text-gray-600 dark:text-gray-400">
                       Accusantium nemo perspiciatis delectus atque autem!
                     </p>
-                  </div>
-                </div>
-
-                <div className="marquee-container">
-                  <div className="marquee-content">
-                    <div className="marquee-item">
-                      <img
-                        className="imgSlide"
-                        src="https://i.ibb.co/hfPSy0p/Emporium-REC-Corporate-Member.png"
-                        alt="Emporium-REC-Corporate-Member"
-                      />
-                    </div>
-                    <div className="marquee-item">
-                      <img
-                        className="imgSlide"
-                        src="https://i.ibb.co/Fw6tF5L/Emporium-NHS-Healthcare-Alliance.png"
-                        alt="Emporium-NHS-Healthcare-Alliance"
-                      />
-                    </div>
-                    <div className="marquee-item">
-                      <img
-                        className="imgSlide"
-                        src="https://i.ibb.co/3y3S1JZ/Emporium-Healthtrust-Europe-Awarded-Supplier.png"
-                        alt="Emporium-Healthtrust-Europe-Awarded-Supplier"
-                      />
-                    </div>
-                    <div className="marquee-item">
-                      <img
-                        className="imgSlide"
-                        src="https://i.ibb.co/9VkSjsT/Emporium-ISO9001-NQA-Quality-Management.png"
-                        alt="Emporium-ISO9001-NQA-Quality-Management"
-                      />
-                    </div>
-                    <div className="marquee-item">
-                      <img
-                        className="imgSlide"
-                        src="https://i.ibb.co/nkcTV4w/Emporiuma-Recruiter-Fast-50.png"
-                        alt="Emporiuma-Recruiter-Fast-50"
-                      />
-                    </div>
                   </div>
                 </div>
 
